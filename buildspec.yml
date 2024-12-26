@@ -1,4 +1,4 @@
-# This is for CodeBuild
+# This is for CodeBuild v2
 version: 0.2
 
 phases:
