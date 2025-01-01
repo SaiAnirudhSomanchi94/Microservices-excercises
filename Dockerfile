@@ -6,7 +6,8 @@ COPY ./requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
-COPY ./app .
+COPY ./app/app.py .
+COPY ./app/config.py .
 
 EXPOSE 5431
 EXPOSE 5432
