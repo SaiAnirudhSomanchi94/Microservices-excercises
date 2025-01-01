@@ -35,7 +35,7 @@ workspace root$ kubectl version
 Client Version: version.Info{Major:"1", Minor:"20", GitVersion:"v1.20.2", GitCommit:"faecb196815e248d3ecfb03c680a4507229c2a56", GitTreeState:"clean", BuildDate:"2021-01-13T13:28:09Z", GoVersion:"go1.15.5", Compiler:"gc", Platform:"linux/amd64"}
 Server Version: version.Info{Major:"1", Minor:"24+", GitVersion:"v1.24.17-eks-2d5f260", GitCommit:"89754d01890de9a2e8316f075ec0a47cccc74b13", GitTreeState:"clean", BuildDate:"2024-12-12T21:00:12Z", GoVersion:"go1.21.8", Compiler:"gc", Platform:"linux/amd64"}
 ```
-#####AWS Version
+##### AWS Version
 ```bash
 workspace root$ aws --version
 aws-cli/2.15.25 Python/3.11.8 Linux/5.15.0-1065-gke exe/x86_64.ubuntu.18 prompt/off
