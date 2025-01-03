@@ -6,7 +6,7 @@ FROM python:3.8-slim-buster
 WORKDIR /app
 
 # Copy the requirements.txt file to the working directory inside the Docker container
-COPY /analytics/requirements.txt /app/
+COPY /requirements.txt /app/
 
 # Install the necessary Python packages and dependencies for the application
 RUN pip install --upgrade pip 
