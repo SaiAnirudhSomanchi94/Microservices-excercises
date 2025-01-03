@@ -20,6 +20,7 @@ COPY ./analytics/app.py /app/
 
 EXPOSE 5431
 EXPOSE 5432
+EXPOSE 5132
 
 # Set the command to run the application
 CMD ["python", "/app/app.py"]
