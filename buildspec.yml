@@ -1,12 +1,12 @@
 # This is for CodeBuild v3
-version: 0.2
+version: 0.3
 
 phases:
   pre_build:
     commands:
       - echo Logging into ECR
       - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
-      - echo Successfully Logged into ECR
+      - echo Successfully Logged in
   build:
     commands:
       - echo Starting build at `date`
