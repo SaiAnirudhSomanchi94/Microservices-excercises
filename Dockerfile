@@ -1,5 +1,5 @@
 # Python 3.8 slim-buster (Debian 10 Linux Distribution) will be the base image for this python application
-## Changes on Files
+##
 FROM python:3.9-slim
 
 # Set the working directory inside the Docker container
@@ -20,7 +20,6 @@ COPY ./analytics/app.py /app/
 
 EXPOSE 5431
 EXPOSE 5432
-EXPOSE 5132
 
 # Set the command to run the application
 CMD ["python", "/app/app.py"]
