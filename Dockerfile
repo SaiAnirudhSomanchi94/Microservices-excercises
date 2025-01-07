@@ -1,6 +1,6 @@
 # Python 3.8 slim-buster (Debian 10 Linux Distribution) will be the base image for this python application
 ## Changes on Files
-FROM python:3.8-slim-buster
+FROM python:3.9-slim
 
 # Set the working directory inside the Docker container
 WORKDIR /app
